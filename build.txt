@@ -1,6 +1,6 @@
-﻿author = jopojelly, jofairden, rrryutaro
+﻿author = jopojelly, jofairden, rrryutaro, Pyro182
 version = 0.7.6.1
-displayName = Cheat Sheet
+displayName = Cheat Sheet EDIT
 homepage = http://forums.terraria.org/index.php?threads/cheat-sheet.41407/
 buildIgnore = .vs\*, Properties\*, *.csproj, *.user, obj\*, bin\*, *.config, .git\*
 hideCode = false
