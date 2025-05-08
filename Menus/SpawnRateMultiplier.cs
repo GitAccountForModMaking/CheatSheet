@@ -18,8 +18,8 @@ namespace CheatSheet.Menus
 	internal class SpawnRateMultiplier
 	{
 		internal static string CSText(string key, string category = "SpawnRate") => CheatSheet.CSText(category, key);
-		private static float[] multipliers = new float[] { .25f, .5f, 1f, 1.5f, 2f, 3f, 5f, 10f, 30f };
-		private static string[] multiplierStrings = new string[] { ".25x", ".5x", "1x", "1.5x", "2x", "3x", "5x", "10x", "30x" };
+		private static float[] multipliers = new float[] { .25f, .5f, 1f, 1.5f, 2f, 3f, 5f, 10f, 30f, 100f, 250f, 500f, 1000f };
+		private static string[] multiplierStrings = new string[] { ".25x", ".5x", "1x", "1.5x", "2x", "3x", "5x", "10x", "30x", "100x", "250x", "500x", "1000x" };
 		public static float currentMultiplier = 1f;
 		private static int currentMultiplierIndex = 2;
 		public static UIImage button;
